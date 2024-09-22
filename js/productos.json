@@ -1,0 +1,102 @@
+[
+    {
+        "nombre": "Térmica Bipolar 2x06a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 46315
+    },
+    {
+        "nombre": "Térmica Bipolar 2x10a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 35154
+    },
+    {
+        "nombre": "Térmica Bipolar 2x16a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 48178
+    },
+    {
+        "nombre": "Térmica Bipolar 2x20a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 48178
+    },
+    {
+        "nombre": "Térmica Bipolar 2x25a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 48178
+    },
+    {
+        "nombre": "Térmica Bipolar 2x32a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 48178
+    },
+    {
+        "nombre": "Térmica Bipolar 2x40a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 63640
+    },
+    {
+        "nombre": "Térmica Bipolar 2x50a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 63949
+    },
+    {
+        "nombre": "Térmica Bipolar 2x63a",
+        "imagen": "./img/Productos/Termicas/termica bipolar.jpg",
+        "precio": 101524
+    },
+    {
+        "nombre": "Cable 2.5mm x100 mts - BLANCO",
+        "imagen": "./img/Productos/Cables/250 blanco.jpg",
+        "precio": 66327
+    },
+    {
+        "nombre": "Cable 2.5mm x100 mts - CELESTE",
+        "imagen": "./img/Productos/Cables/250 celeste.jpg",
+        "precio": 66327
+    },
+    {
+        "nombre": "Cable 2.5mm x100 mts - MARRÓN",
+        "imagen": "./img/Productos/Cables/250 marron.jpg",
+        "precio": 66327
+    },
+    {
+        "nombre": "Cable 2.5mm x100 mts - NEGRO",
+        "imagen": "./img/Productos/Cables/250 negro.jpg",
+        "precio": 66327
+    },
+    {
+        "nombre": "Cable 2.5mm x100 mts - ROJO",
+        "imagen": "./img/Productos/Cables/250 rojo.jpg",
+        "precio": 66327
+    },
+    {
+        "nombre": "Cable 2.5mm x100 mts - VERDE/AMARILLO",
+        "imagen": "./img/Productos/Cables/250 verde.jpg",
+        "precio": 66327
+    },
+    {
+        "nombre": "Lámpara LED 7w Fría",
+        "imagen": "./img/Productos/Lamparas/Lampara Interelec.jpg",
+        "precio": 983
+    },
+    {
+        "nombre": "Lámpara LED 9w Fría",
+        "imagen": "./img/Productos/Lamparas/Lampara Interelec.jpg",
+        "precio": 1191
+    },
+    {
+        "nombre": "Lámpara LED 12w Fría",
+        "imagen": "./img/Productos/Lamparas/Lampara Interelec.jpg",
+        "precio": 1424
+    },
+    {
+        "nombre": "Lámpara LED 15w Fría",
+        "imagen": "./img/Productos/Lamparas/Lampara Interelec.jpg",
+        "precio": 1599
+    },
+    {
+        "nombre": "Lámpara LED 18w Fría",
+        "imagen": "./img/Productos/Lamparas/Lampara Interelec.jpg",
+        "precio": 2733
+    }
+]

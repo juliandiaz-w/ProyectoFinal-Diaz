@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.1/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.1/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Catálogo de productos</title>
+</head>
+
+<body>
+    <h1>Catálogo de Productos</h1>
+
+    <div class="main-container">
+        <div class="left-column">
+            <div class="search-container">
+                <div style="position: relative;">
+                    <input type="text" id="searchInput" placeholder="Buscar producto...">
+                    <span id="clearText">X</span>
+                </div>
+                <button id="searchButton">Buscar</button>
+            </div>
+            
+            <div id="carrito">
+                <h2>Carrito de Compras <span id="contador-carrito"></span></h2>
+                <ul id="lista-carrito"></ul>
+                <h3>Total: $<span id="total-carrito">0</span></h3>
+            </div>
+            <button id="finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+        </div>
+    <div id="catalogo">
+
+
+        <div class="producto" data-nombre="Térmica Bipolar 2x06a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x06a">
+            <h3>Térmica Bipolar 2x06a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $46.315</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="46315">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x10a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x10a">
+            <h3>Térmica Bipolar 2x10a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $35.154</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="35154">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x16a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x16a">
+            <h3>Térmica Bipolar 2x16a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $48.178</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="48178">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x20a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x20a">
+            <h3>Térmica Bipolar 2x20a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $48.178</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="48178">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x25a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x25a">
+            <h3>Térmica Bipolar 2x25a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $48.178</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="48178">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x32a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x32a">
+            <h3>Térmica Bipolar 2x32a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $48.178</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="48178">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x40a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x40a">
+            <h3>Térmica Bipolar 2x40a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $63.450</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="63450">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x50a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x50a">
+            <h3>Térmica Bipolar 2x50a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $63.949</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="63949">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Térmica Bipolar 2x63a" data-marca="Siemens">
+            <img src="./img/Productos/Termicas/termica bipolar.jpg" alt="Térmica Bipolar 2x63a">
+            <h3>Térmica Bipolar 2x63a</h3>
+            <p>Marca: Siemens</p>
+            <p>Precio: $101.524</p>
+            <button class="agregar-al-carrito" data-id="1" data-precio="101524">Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto" data-nombre="Cable 2.5mm x100 mts" data-marca="Argenplas">
+            <img src="./img/Productos/Cables/250 blanco.jpg" alt="Cable 2.5mm x100 mts">
+            <h3>Cable 2.5mm x100 mts - BLANCO</h3>
+            <p>Marca: Argenplas</p>
+            <p>Precio: $66.327</p>
+            <button class="agregar-al-carrito" data-id="2" data-precio="66327">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cable 2.5mm x100 mts" data-marca="Argenplas">
+            <img src="./img/Productos/Cables/250 celeste.jpg" alt="Cable 2.5mm x100 mts">
+            <h3>Cable 2.5mm x100 mts - CELESTE</h3>
+            <p>Marca: Argenplas</p>
+            <p>Precio: $66.327</p>
+            <button class="agregar-al-carrito" data-id="2" data-precio="66327">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cable 2.5mm x100 mts" data-marca="Argenplas">
+            <img src="./img/Productos/Cables/250 marron.jpg" alt="Cable 2.5mm x100 mts">
+            <h3>Cable 2.5mm x100 mts - MARRÓN</h3>
+            <p>Marca: Argenplas</p>
+            <p>Precio: $66.327</p>
+            <button class="agregar-al-carrito" data-id="2" data-precio="66327">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cable 2.5mm x100 mts" data-marca="Argenplas">
+            <img src="./img/Productos/Cables/250 negro.jpg" alt="Cable 2.5mm x100 mts">
+            <h3>Cable 2.5mm x100 mts - NEGRO</h3>
+            <p>Marca: Argenplas</p>
+            <p>Precio: $66.327</p>
+            <button class="agregar-al-carrito" data-id="2" data-precio="66327">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cable 2.5mm x100 mts" data-marca="Argenplas">
+            <img src="./img/Productos/Cables/250 rojo.jpg" alt="Cable 2.5mm x100 mts">
+            <h3>Cable 2.5mm x100 mts - ROJO</h3>
+            <p>Marca: Argenplas</p>
+            <p>Precio: $66.327</p>
+            <button class="agregar-al-carrito" data-id="2" data-precio="66327">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Cable 2.5mm x100 mts" data-marca="Argenplas">
+            <img src="./img/Productos/Cables/250 verde.jpg" alt="Cable 2.5mm x100 mts">
+            <h3>Cable 2.5mm x100 mts - VERDE/AMARILLO</h3>
+            <p>Marca: Argenplas</p>
+            <p>Precio: $66.327</p>
+            <button class="agregar-al-carrito" data-id="2" data-precio="66327">Agregar al carrito</button>
+        </div>
+
+
+        <div class="producto" data-nombre="Lámpara LED 7w Fría" data-marca="Interelec">
+            <img src="img/Productos/Lamparas/Lampara Interelec.jpg" alt="Lámpara LED 7w Fría">
+            <h3>Lámpara LED 7w Fría</h3>
+            <p>Marca: Interelec</p>
+            <p>Precio: $983</p>
+            <button class="agregar-al-carrito" data-id="3" data-precio="983">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Lámpara LED 9w Fría" data-marca="Interelec">
+            <img src="img/Productos/Lamparas/Lampara Interelec.jpg" alt="Lámpara LED 9w Fría">
+            <h3>Lámpara LED 9w Fría</h3>
+            <p>Marca: Interelec</p>
+            <p>Precio: $1.191</p>
+            <button class="agregar-al-carrito" data-id="3" data-precio="1191">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Lámpara LED 12w Fría" data-marca="Interelec">
+            <img src="img/Productos/Lamparas/Lampara Interelec.jpg" alt="Lámpara LED 12w Fría">
+            <h3>Lámpara LED 12w Fría</h3>
+            <p>Marca: Interelec</p>
+            <p>Precio: $1.424</p>
+            <button class="agregar-al-carrito" data-id="3" data-precio="1424">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Lámpara LED 15w Fría" data-marca="Interelec">
+            <img src="img/Productos/Lamparas/Lampara Interelec.jpg" alt="Lámpara LED 15w Fría">
+            <h3>Lámpara LED 15w Fría</h3>
+            <p>Marca: Interelec</p>
+            <p>Precio: $1.599</p>
+            <button class="agregar-al-carrito" data-id="3" data-precio="1599">Agregar al carrito</button>
+        </div>
+        <div class="producto" data-nombre="Lámpara LED 18w Fría" data-marca="Interelec">
+            <img src="img/Productos/Lamparas/Lampara Interelec.jpg" alt="Lámpara LED 18w Fría">
+            <h3>Lámpara LED 18w Fría</h3>
+            <p>Marca: Interelec</p>
+            <p>Precio: $2.733</p>
+            <button class="agregar-al-carrito" data-id="3" data-precio="2733">Agregar al carrito</button>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
